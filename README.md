@@ -4,6 +4,7 @@ This repository contains a Python implementation of the weighted multiple-instan
 <img align="center" src="images/overview.png" alt="Explicit document modeling using weighted multiple-instance learning" width="650"/>
 </p>
 </p>
+
 ```
 @ARTICLE{Pappas_JAIR_2017,
          author = {Pappas, Nikolaos and Popescu-Belis, Andrei},
