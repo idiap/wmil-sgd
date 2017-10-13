@@ -15,22 +15,22 @@ This repository contains a Python implementation of the weighted multiple-instan
 } 
 ```
 
-Learning objective
+Defining the learning objective
 ------------
 The present code assumes that a document <i>B<sub>i</sub></i> is represented by a set of fixed sentence vectors. The instance relevance (attention) is modeled by a normalized exponential function, namely softmax and a linear activation between a contextual vector <i>O</i> and the sentence vectors <i>B<sub>i</sub></i> (document matrix):
 
 <p align="right">
-<img src="images/wmil_instance_relevance_mechanism.png" alt="Instance relevance mechanism" width="590"/>
+<img src="images/wmil_instance_relevance_mechanism.png" alt="Instance relevance mechanism" width="570"/>
 </p> 
 
 The learning objective is formulated in the regularized least squares framework and can be optimized with stochastic
 gradient descent (SGD) as it is comprised of differentiable functions.
 
 <p align="right">
-<img src="images/wmil_objective.png" alt="Learning objective" width="610"/>
+<img src="images/wmil_objective.png" alt="Learning objective" width="590"/>
 </p> 
 
-Dependencies
+Installing dependencies
 ------------
 The available code requires Python programming language and pip package manager to run. 
 For detailed instructions on how to install it along with a package manager please refer 
@@ -97,7 +97,7 @@ array([ 0.43081474,  0.31438322,  0.25480204])
 ```
 
 
-Visualization
+Visualizing the relevance weights
 ------------
 The relevance weights estimated by the weighted multiple-instance learning model are useful for interpreting the decision made by the classifier for a particular task. For instance, the following example visualizes the estimated relevance weights (shown in percentage) of each sentence by the model in the task of sentiment analysis of comments. For more examples please check the online <a href="http://nik0spapp.github.io/demos/wmil-sa/">wmil-sa demo</a>.
 
