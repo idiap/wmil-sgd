@@ -15,19 +15,19 @@ This repository contains a Python implementation of the weighted multiple-instan
 } 
 ```
 
-Understanding the learning objective
+Learning objective
 ------------
 The present code assumes that a document <i>B<sub>i</sub></i> is represented by a set of fixed sentence vectors. The instance relevance (attention) is modeled by a normalized exponential function, namely softmax and a linear activation between a contextual vector <i>O</i> and the sentence vectors <i>B<sub>i</sub></i> (document matrix):
 
 <p align="right">
-<img src="images/wmil_instance_relevance_mechanism.png" alt="Instance relevance mechanism" width="610"/>
+<img src="images/wmil_instance_relevance_mechanism.png" alt="Instance relevance mechanism" width="590"/>
 </p> 
 
 The learning objective is formulated in the regularized least squares framework and can be optimized with stochastic
 gradient descent (SGD) as it is comprised of differentiable functions.
 
 <p align="right">
-<img src="images/wmil_objective.png" alt="Learning objective" width="650"/>
+<img src="images/wmil_objective.png" alt="Learning objective" width="610"/>
 </p> 
 
 Installing dependencies
