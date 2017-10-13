@@ -30,7 +30,7 @@ gradient descent (SGD) as it is comprised of differentiable functions.
 <img src="images/wmil_objective.png" alt="Learning objective" width="610"/>
 </p> 
 
-Installing dependencies
+Dependencies
 ------------
 The available code requires Python programming language and pip package manager to run. 
 For detailed instructions on how to install it along with a package manager please refer 
@@ -97,7 +97,7 @@ array([ 0.43081474,  0.31438322,  0.25480204])
 ```
 
 
-Visualizing the relevance weights
+Visualization
 ------------
 The relevance weights estimated by the weighted multiple-instance learning model are useful for interpreting the decision made by the classifier for a particular task. For instance, the following example visualizes the estimated relevance weights (shown in percentage) of each sentence by the model in the task of sentiment analysis of comments. For more examples please check the online <a href="http://nik0spapp.github.io/demos/wmil-sa/">wmil-sa demo</a>.
 
