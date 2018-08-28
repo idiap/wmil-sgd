@@ -49,7 +49,7 @@ The code extends BaseEstimator class from scikit-learn package, so you should be
 ```bash
 $ python
 >>> import pickle
->>> from wmil import SGDWeights
+>>> from wmil_sgd import SGDWeights
 >>> from sklearn.metrics import mean_absolute_error
 >>> data = pickle.load(open('features/ted_comments.p'))
 >>> size = len(data['X'])
