@@ -58,7 +58,7 @@ class SGDWeights(BaseEstimator):
 		B = self.intercept_sparse(X)
 		self.W = np.zeros((B[0].shape[1], 1), dtype=np.float64)
 		self.O = np.zeros((B[0].shape[1], 1), dtype=np.float64)
-		curb, epoch, maxiter, prev_mae = 0, 0, 200, 99999
+		curb, epoch, maxiter, prev_mae = 0, 0, 500, 99999
 		converged = False
 		total_sec = []
 
