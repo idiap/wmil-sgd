@@ -100,7 +100,7 @@ class SGDWeights(BaseEstimator):
 					adjusted_w = sum_errw / (fudge + np.sqrt(gw))
 					adjusted_o = sum_erro / (fudge + np.sqrt(go))
 					self.W = self.W - self.alpha*adjusted_w
-					self.O = self.O - self.alphaa*adjusted_o
+					self.O = self.O - self.alpha*adjusted_o
 
 				curb += self.minib
 
