@@ -109,5 +109,6 @@ Evaluating the relevance weights
 ------------
 For an intrinsic evaluation of the relevance weights we created and used the <a href="http://www.idiap.ch/paper/hatdoc/">HATDOC dataset</a>. HATDOC contains human attention scores to sentences when attributing specific categories (aspect ratings) to documents (audiobook reviews). The annotations were obtained using at least 4 qualified judges per sentence using a crowdsourcing platform, namely 100 audiobook reviews with 1,662 sentences and three aspects: story, performance, and overall quality. In addition, a dataset of 50K audiobook reviews with document-level aspect ratings can be used for weakly supervised training. The data are suitable for intrinsic evaluation of explicit document modeling models with attention mechanisms in the task of aspect sentiment analysis and summarization of reviews.
 
-
+## Contact:
+npappas@idiap.ch
 
